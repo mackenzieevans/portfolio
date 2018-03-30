@@ -1,0 +1,123 @@
+@font-face {
+	font-family:raleway;
+	src: url(../raleway/Raleway-Regular.ttf);
+}
+body{
+    font-family:raleway;
+    color:#035F67;
+    margin:0;
+}
+header{
+    width:100%;
+    margin-top:1%;
+}
+h1{
+   font-size:4em;
+    text-align:center; 
+}
+#logo{
+    width:15%;
+    padding:1% 0 0 3%;
+    display:inline-block;
+}
+
+main{
+    width:90%;
+}
+
+/*Home Page*/
+#main-index{
+    margin-top:4%;
+    margin-right:5%;
+    margin-left:5%;
+}
+#mac {
+    width:100%;
+    text-align: center;
+    margin:0;
+}
+#evans{
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position:relative;
+    display: inline-block;
+    margin:0 0 0 69%;
+    top:-185px;
+    
+}
+#main-index p{
+    position: relative;
+    width:100%;
+    display:inline-block;
+    font-size:1.25em;
+    padding-right:4%;
+    margin-bottom:3%;
+    text-align:center;
+}
+#main-index img{
+    position: relative;
+    display:inline-block;
+    width:30%;
+    margin-left:35%;
+    margin-right:0;
+    margin-top:0;
+    max-width: 100%;
+    height:auto;
+    box-shadow: -20px 20px #035F67;
+}
+
+/*About Page*/
+#main-about{
+    position: relative;
+    width:80%;
+    margin: 5% 10%;
+}
+hr{
+    width:70%;
+    color:#035F67;
+}
+#main-about h1{
+    font-size:4em;
+    text-align:center;
+}
+#main-about p{
+    position: relative;
+    display:inline-block;
+    width:56%;
+    font-size:1.5em;
+    line-height:2;
+    vertical-align: top;
+    padding: 1% 2%;
+    text-align: center;
+}
+#main-about a{
+    text-decoration: underline #035F67;
+    color:#035F67;
+}
+#main-about img:not(#handstand){
+    position: relative;
+    display:inline-block;
+    width:39%;
+}
+#handstand{
+    display:block;
+    width:57%;
+    margin-left:21.5%;
+    margin-left:21.5%;
+}
+
+/*Background-Page*/
+#main-background{
+    width:80%;
+    margin:5% 10%;
+}
+#main-background embed{
+    height:285px;
+}
+#certifications{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#certifications div{
+    text-align: center;
+}

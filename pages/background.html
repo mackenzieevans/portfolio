@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>Mackenzie Evans</title>
+         
+         <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+         <link rel="stylesheet" type="text/css" href="../stylesheets/nav.css">
+         <link rel="icon" href="../media/favicon.png" type="image/png">
+         
+        <meta charset="UTF-8">
+        <meta name="description" content="Mackenzie Evans' Portfolio">
+        <meta name="keywords" content="Mackenzie, portfolio, web developer, HTML, CSS, JavaScript, PHP">
+        <meta name="author" content="Mackenzie Evans">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+     <body>
+         
+         <header>
+             
+             <img src="../media/logo.svg" alt="Logo" id="logo" />
+         
+             <nav>
+             
+                 <div class="menu">
+                 <a href="../index.html" alt="Home Page">Home</a>
+                 <a href="about.html" alt="About Page">About</a>
+                 <a href="background.html" alt="Background Page">Background</a>
+                 <a href="work.html" alt="Work Page">Work</a>
+                 <a href="contact.html" alt="Contact Page">Contact</a>
+                 </div>
+                 
+                   <div class="container">
+			     <div id="menu-icon" onclick="myFunction()" class="dropbtn"></div>
+			     <div id="myDropdown" class="dropdown-content">
+				    <a href="../index.html" alt="Home Page">Home</a>
+                 <a href="about.html" alt="About Page">About</a>
+                 <a href="background.html" alt="Background Page">Background</a>
+                 <a href="work.html" alt="Work Page">Work</a>
+                 <a href="contact.html" alt="Contact Page">Contact</a>
+			     </div>
+
+		</div>
+                 
+             </nav>
+             
+         </header>
+         
+         <main id="main-background">
+             
+             <h1>Background</h1>
+             
+            <h2>Certifications</h2>
+             <div id="certifications">
+             <div id="mta">
+             <h2>Microsoft Technology Associate</h2>
+             <embed src="../certifications/html5.pdf" alt="HTML5 Certification" />
+             <embed src="../certifications/html_css.pdf" alt="Intro to Programming using HTML and CSS Certification" />
+             <embed src="../certifications/javascript.pdf" alt="Intro to Programming using JavaScript Certification" />
+             </div>
+             
+             <div id="ciw">
+             <h2>Certified Internet Web Professional</h2>
+             <embed src="../certifications/site_development.pdf" alt="CIW Site Development Certification" />
+             </div>
+             
+             <div id="adobe">
+             <h2>Adobe</h2>
+             <embed src="../certifications/dreamweaver.pdf" alt="Dreamweaver Certification" />
+             <embed src="../certifications/photoshop.pdf" alt="Photoshop Certification" />
+             </div>
+             
+             <div id="microsoft">
+             <h2>Microsoft</h2>
+                 <embed src="#" alt="Excel Certification" />
+                 <embed src="#" alt="Word Certification" />
+             </div>
+             </div>
+         
+         </main>
+         
+         
+                  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+         
+         
+     </body>
+</html>
