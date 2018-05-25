@@ -19,6 +19,9 @@ nav a{
     font-size:1.3em;  
     color:#035F67;
 }
+nav a:hover {
+    text-decoration: underline #035F67;
+}
 .container{
     display: none;
 }
